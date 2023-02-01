@@ -1,0 +1,54 @@
+.modal__background{
+    background-color: rgb(209, 203, 203);
+    border-radius: 12px;   
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    /* z-index: -100; */
+}
+.modal__conatiner{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(219, 199, 199);
+    text-align: center;
+    box-shadow: rgb(189, 13, 13) 0px 5px 15px;
+}
+
+.modal__conatiner .body p{
+    font-size: 20px;
+}
+.modal__conatiner .modal__closeBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    background-color: rgb(219, 199, 199);
+
+}
+
+.modal__background .title{
+    margin-top: 70px;
+}
+
+.modal__background .body{
+    margin-top: 70px;
+
+}   
+
+.modal__background .footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer button{
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer .cancel{
+    background-color: red;
+}
